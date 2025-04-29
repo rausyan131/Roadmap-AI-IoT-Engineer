@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="id">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roadmap AI & IoT Engineer dengan Python</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-900 text-gray-100">
+    <!-- Header -->
+    <header class="relative bg-gray-800 py-16 bg-cover bg-center">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="container mx-auto px-4 text-center relative z-10">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">
+          Roadmap Menjadi AI & IoT Engineer
+        </h1>
+        <p class="text-lg md:text-xl text-gray-200">
+          Panduan Komprehensif untuk Pemula dengan Python
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+      <section class="bg-gray-800 rounded-xl shadow-lg p-8 mb-12 card">
+        <h2 class="text-3xl font-semibold text-blue-400 mb-4">
+          Tentang Roadmap
+        </h2>
+        <p class="text-gray-300 leading-relaxed">
+          Roadmap ini dirancang untuk pemula tanpa pengalaman pemrograman yang
+          ingin menjadi <strong>AI Engineer</strong> dengan keahlian tambahan di
+          <strong>Internet of Things (IoT)</strong> menggunakan Python. Estimasi
+          waktu: <strong>12-18 bulan</strong> (5-10 jam/minggu). Roadmap ini
+          mencakup keterampilan inti untuk mengembangkan aplikasi AI yang
+          terintegrasi dengan perangkat IoT, seperti sensor pintar atau sistem
+          otomasi.
+        </p>
+      </section>
+
+      <!-- Roadmap Phases -->
+      <section class="space-y-6">
+        <!-- Fase 1 -->
+        <div class="bg-gray-800 rounded-xl shadow-lg card">
+          <button class="accordion-toggle w-full text-left p-6 bg-blue-600 text-white font-semibold rounded-t-xl hover:bg-blue-500 flex justify-between items-center">
+            <span>Fase 1: Dasar Pemrograman Python (2-3 Bulan)</span>
+          </button>
+          <div class="w-full bg-gray-700 h-3 rounded-b">
+            <div id="progress-bar-phase1" class="progress-bar h-3 rounded-b relative" style="width: 0%" ></div>
+          </div>
+          <div class="accordion-content overflow-hidden">
+            <div class="p-6 text-gray-300">
+              <h3 class="text-xl font-semibold">Tujuan</h3>
+              <p>Menguasai dasar Python untuk pengembangan AI dan IoT.</p>
+              <h3 class="text-xl font-semibold mt-6">Topik Utama</h3>
+              <ul class="list-disc pl-6">
+                <li>
+                  Variabel, tipe data (int, float, string, list, dictionary),
+                  dan operator.
+                </li>
+                <li>Struktur kontrol (if-else, loop).</li>
+                <li>Fungsi, modul, dan penanganan error.</li>
+                <li>Pemrograman berorientasi objek (class, object).</li>
+                <li>
+                  Library dasar: NumPy (array), pandas (data), dan MicroPython
+                  (untuk IoT).
+                </li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Rencana Belajar</h3>
+              <ul class="list-disc pl-6">
+                <li class="flex items-center">
+                  <input type="checkbox" id="phase1-week1-4" class="custom-checkbox checklist mr-3"/>
+                  <label for="phase1-week1-4"><strong>Minggu 1-4</strong>: Pelajari dasar Python
+                    (variabel, loop, fungsi). Sumber:
+                    <a
+                      href="https://www.coursera.org/learn/python"
+                      class="text-blue-400 hover:underline"
+                      >Python for Everybody (Coursera)</a
+                    >,
+                    <a
+                      href="https://dicoding.com"
+                      class="text-blue-400 hover:underline"
+                      >Dicoding</a
+                    >. Latihan: Selesaikan 10-15 soal di HackerRank.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase1-week5-8"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase1-week5-8"
+                    ><strong>Minggu 5-8</strong>: Pelajari struktur data dan
+                    library. Sumber:
+                    <a
+                      href="https://automatetheboringstuff.com"
+                      class="text-blue-400 hover:underline"
+                      >Automate the Boring Stuff</a
+                    >. Latihan: Buat aplikasi daftar tugas.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase1-week9-12"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase1-week9-12"
+                    ><strong>Minggu 9-12</strong>: Pelajari NumPy, pandas,
+                    MicroPython. Sumber:
+                    <a
+                      href="https://dicoding.com"
+                      class="text-blue-400 hover:underline"
+                      >Dicoding</a
+                    >,
+                    <a
+                      href="https://www.kaggle.com/learn"
+                      class="text-blue-400 hover:underline"
+                      >Kaggle</a
+                    >. Latihan: Analisis dataset CSV.</label
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Alat</h3>
+              <ul class="list-disc pl-6">
+                <li>Google Colab: Python berbasis cloud.</li>
+                <li>Jupyter Notebook: Di Colab.</li>
+                <li>Pythonista: Aplikasi iOS (opsional).</li>
+                <li>Raspberry Pi: Untuk IoT (opsional).</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Proyek Milestone</h3>
+              <p>
+                Buat analisator data sederhana (misalnya, analisis data suhu IoT
+                dari dataset Kaggle).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fase 2 -->
+        <div class="bg-gray-800 rounded-xl shadow-lg card">
+          <button
+            class="accordion-toggle w-full text-left p-6 bg-blue-600 text-white font-semibold rounded-t-xl hover:bg-blue-500 flex justify-between items-center"
+          >
+            <span>Fase 2: Matematika dan Statistik untuk AI (2-3 Bulan)</span>
+          </button>
+          <div class="w-full bg-gray-700 h-3 rounded-b">
+            <div
+              id="progress-bar-phase2"
+              class="progress-bar h-3 rounded-b relative"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div class="accordion-content overflow-hidden">
+            <div class="p-6 text-gray-300">
+              <h3 class="text-xl font-semibold">Tujuan</h3>
+              <p>Memahami dasar matematika untuk algoritma AI.</p>
+              <h3 class="text-xl font-semibold mt-6">Topik Utama</h3>
+              <ul class="list-disc pl-6">
+                <li>
+                  Statistik: Rata-rata, median, standar deviasi, probabilitas.
+                </li>
+                <li>Aljabar Linier: Vektor, matriks, eigenvalue.</li>
+                <li>Kalkulus: Turunan, gradien, gradient descent.</li>
+                <li>Probabilitas: Teorema Bayes.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Rencana Belajar</h3>
+              <ul class="list-disc pl-6">
+                <li class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="phase2-week1-4"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase2-week1-4"
+                    ><strong>Minggu 1-4</strong>: Statistik dan probabilitas.
+                    Sumber:
+                    <a
+                      href="https://www.khanacademy.org"
+                      class="text-blue-400 hover:underline"
+                      >Khan Academy</a
+                    >. Latihan: Soal probabilitas.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase2-week5-8"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase2-week5-8"
+                    ><strong>Minggu 5-8</strong>: Aljabar linier. Sumber:
+                    <a
+                      href="https://www.youtube.com/c/3blue1brown"
+                      class="text-blue-400 hover:underline"
+                      >3Blue1Brown</a
+                    >. Latihan: Operasi matriks dengan NumPy.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase2-week9-12"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase2-week9-12"
+                    ><strong>Minggu 9-12</strong>: Kalkulus untuk AI. Sumber:
+                    <a
+                      href="https://www.khanacademy.org"
+                      class="text-blue-400 hover:underline"
+                      >Khan Academy</a
+                    >. Latihan: Gradient descent di Python.</label
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Alat</h3>
+              <ul class="list-disc pl-6">
+                <li>NumPy: Operasi matriks.</li>
+                <li>Google Colab: Simulasi matematika.</li>
+                <li>Wolfram Alpha: Visualisasi.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Proyek Milestone</h3>
+              <p>
+                Implementasi regresi linier dari awal untuk prediksi data sensor
+                IoT.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fase 3 -->
+        <div class="bg-gray-800 rounded-xl shadow-lg card">
+          <button
+            class="accordion-toggle w-full text-left p-6 bg-blue-600 text-white font-semibold rounded-t-xl hover:bg-blue-500 flex justify-between items-center"
+          >
+            <span>Fase 3: Dasar Machine Learning (3-4 Bulan)</span>
+          </button>
+          <div class="w-full bg-gray-700 h-3 rounded-b">
+            <div
+              id="progress-bar-phase3"
+              class="progress-bar h-3 rounded-b relative"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div class="accordion-content overflow-hidden">
+            <div class="p-6 text-gray-300">
+              <h3 class="text-xl font-semibold">Tujuan</h3>
+              <p>
+                Menguasai algoritma machine learning untuk analisis data IoT.
+              </p>
+              <h3 class="text-xl font-semibold mt-6">Topik Utama</h3>
+              <ul class="list-disc pl-6">
+                <li>
+                  Supervised Learning: Regresi linier, logistik, SVM, random
+                  forest.
+                </li>
+                <li>Unsupervised Learning: K-means, PCA.</li>
+                <li>Metrik Evaluasi: Akurasi, presisi, recall, RMSE.</li>
+                <li>Preprocessing: Normalisasi, rekayasa fitur.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Rencana Belajar</h3>
+              <ul class="list-disc pl-6">
+                <li class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="phase3-week1-4"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase3-week1-4"
+                    ><strong>Minggu 1-4</strong>: Supervised learning. Sumber:
+                    <a
+                      href="https://www.coursera.org/learn/machine-learning"
+                      class="text-blue-400 hover:underline"
+                      >Andrew Ng</a
+                    >. Latihan: Prediksi Titanic (Kaggle).</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase3-week5-8"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase3-week5-8"
+                    ><strong>Minggu 5-8</strong>: Unsupervised learning. Sumber:
+                    <a
+                      href="https://fast.ai"
+                      class="text-blue-400 hover:underline"
+                      >Fast.ai</a
+                    >. Latihan: Klasterisasi data sensor IoT.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase3-week9-12"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase3-week9-12"
+                    ><strong>Minggu 9-12</strong>: Evaluasi model. Sumber:
+                    <a
+                      href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032649/"
+                      class="text-blue-400 hover:underline"
+                      >Hands-On ML</a
+                    >. Latihan: Optimasi random forest.</label
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Alat</h3>
+              <ul class="list-disc pl-6">
+                <li>scikit-learn: Algoritma ML.</li>
+                <li>Google Colab: Latihan model.</li>
+                <li>Kaggle: Dataset.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Proyek Milestone</h3>
+              <p>Model klasifikasi untuk prediksi kegagalan perangkat IoT.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fase 4 -->
+        <div class="bg-gray-800 rounded-xl shadow-lg card">
+          <button
+            class="accordion-toggle w-full text-left p-6 bg-blue-600 text-white font-semibold rounded-t-xl hover:bg-blue-500 flex justify-between items-center"
+          >
+            <span>Fase 4: Deep Learning dan Integrasi IoT (3-4 Bulan)</span>
+          </button>
+          <div class="w-full bg-gray-700 h-3 rounded-b">
+            <div
+              id="progress-bar-phase4"
+              class="progress-bar h-3 rounded-b relative"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div class="accordion-content overflow-hidden">
+            <div class="p-6 text-gray-300">
+              <h3 class="text-xl font-semibold">Tujuan</h3>
+              <p>Pelajari deep learning dan integrasi dengan IoT.</p>
+              <h3 class="text-xl font-semibold mt-6">Topik Utama</h3>
+              <ul class="list-disc pl-6">
+                <li>Jaringan saraf: Perceptron, backpropagation.</li>
+                <li>Framework: TensorFlow, PyTorch.</li>
+                <li>CNN: Pemrosesan gambar IoT.</li>
+                <li>RNN/Transformer: Data deret waktu IoT.</li>
+                <li>IoT: MQTT, MicroPython, sensor data.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Rencana Belajar</h3>
+              <ul class="list-disc pl-6">
+                <li class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="phase4-week1-4"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase4-week1-4"
+                    ><strong>Minggu 1-4</strong>: Jaringan saraf. Sumber:
+                    <a
+                      href="https://www.deeplearning.ai"
+                      class="text-blue-400 hover:underline"
+                      >DeepLearning.AI</a
+                    >. Latihan: Klasifikasi MNIST.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase4-week5-8"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase4-week5-8"
+                    ><strong>Minggu 5-8</strong>: CNN dan IoT. Sumber:
+                    <a
+                      href="https://fast.ai"
+                      class="text-blue-400 hover:underline"
+                      >Fast.ai</a
+                    >,
+                    <a
+                      href="https://dicoding.com"
+                      class="text-blue-400 hover:underline"
+                      >Dicoding</a
+                    >. Latihan: CNN untuk kamera IoT.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase4-week9-12"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase4-week9-12"
+                    ><strong>Minggu 9-12</strong>: NLP dan AI-IoT. Sumber:
+                    <a
+                      href="https://huggingface.co"
+                      class="text-blue-400 hover:underline"
+                      >Hugging Face</a
+                    >. Latihan: Fine-tune BERT untuk log sensor.</label
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Alat</h3>
+              <ul class="list-disc pl-6">
+                <li>TensorFlow/PyTorch: Deep learning.</li>
+                <li>Hugging Face: NLP.</li>
+                <li>Raspberry Pi/NodeMCU: IoT.</li>
+                <li>Paho MQTT: Komunikasi IoT.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Proyek Milestone</h3>
+              <p>
+                Sistem AI-IoT untuk prediksi suhu dengan Raspberry Pi/simulator.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fase 5 -->
+        <div class="bg-gray-800 rounded-xl shadow-lg card">
+          <button
+            class="accordion-toggle w-full text-left p-6 bg-blue-600 text-white font-semibold rounded-t-xl hover:bg-blue-500 flex justify-between items-center"
+          >
+            <span>Fase 5: Pengembangan dan Penerapan AI-IoT (2-3 Bulan)</span>
+          </button>
+          <div class="w-full bg-gray-700 h-3 rounded-b">
+            <div
+              id="progress-bar-phase5"
+              class="progress-bar h-3 rounded-b relative"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div class="accordion-content overflow-hidden">
+            <div class="p-6 text-gray-300">
+              <h3 class="text-xl font-semibold">Tujuan</h3>
+              <p>Menerapkan model AI dan IoT ke aplikasi nyata.</p>
+              <h3 class="text-xl font-semibold mt-6">Topik Utama</h3>
+              <ul class="list-disc pl-6">
+                <li>Penerapan: Flask, FastAPI, cloud (AWS, GCP).</li>
+                <li>MLOps: Pemantauan model, pipeline.</li>
+                <li>IoT Deployment: Real-time sensor data, edge computing.</li>
+                <li>API: Membuat API untuk AI dan IoT.</li>
+                <li>Git: Kontrol versi.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Rencana Belajar</h3>
+              <ul class="list-disc pl-6">
+                <li class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="phase5-week1-4"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase5-week1-4"
+                    ><strong>Minggu 1-4</strong>: Penerapan Flask/FastAPI.
+                    Sumber:
+                    <a
+                      href="https://fastapi.tiangolo.com"
+                      class="text-blue-400 hover:underline"
+                      >FastAPI</a
+                    >. Latihan: Aplikasi web di Heroku.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase5-week5-8"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase5-week5-8"
+                    ><strong>Minggu 5-8</strong>: MLOps dan cloud IoT. Sumber:
+                    <a
+                      href="https://datatalks.club"
+                      class="text-blue-400 hover:underline"
+                      >MLOps Zoomcamp</a
+                    >. Latihan: Model di AWS IoT.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase5-week9-12"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase5-week9-12"
+                    ><strong>Minggu 9-12</strong>: Git dan portofolio. Sumber:
+                    <a
+                      href="https://www.freecodecamp.org"
+                      class="text-blue-400 hover:underline"
+                      >freeCodeCamp</a
+                    >. Latihan: Repositori GitHub.</label
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Alat</h3>
+              <ul class="list-disc pl-6">
+                <li>Flask/FastAPI: Aplikasi web.</li>
+                <li>Docker: Kontainerisasi (opsional).</li>
+                <li>GitHub: Portofolio.</li>
+                <li>AWS IoT Core: Penerapan IoT.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Proyek Milestone</h3>
+              <p>Aplikasi web AI-IoT untuk memantau sensor pintar.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fase 6 -->
+        <div class="bg-gray-800 rounded-xl shadow-lg card">
+          <button
+            class="accordion-toggle w-full text-left p-6 bg-blue-600 text-white font-semibold rounded-t-xl hover:bg-blue-500 flex justify-between items-center"
+          >
+            <span
+              >Fase 6: Bangun Portofolio dan Cari Pekerjaan (1-2 Bulan)</span
+            >
+          </button>
+          <div class="w-full bg-gray-700 h-3 rounded-b">
+            <div
+              id="progress-bar-phase6"
+              class="progress-bar h-3 rounded-b relative"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div class="accordion-content overflow-hidden">
+            <div class="p-6 text-gray-300">
+              <h3 class="text-xl font-semibold">Tujuan</h3>
+              <p>Pamerkan keterampilan dan dapatkan pekerjaan.</p>
+              <h3 class="text-xl font-semibold mt-6">Langkah Utama</h3>
+              <ul class="list-disc pl-6">
+                <li class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="phase6-portfolio"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase6-portfolio"
+                    >Portofolio: 3-5 proyek (sistem IoT, chatbot, pengenal
+                    gambar).</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase6-networking"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase6-networking"
+                    >Jaringan: LinkedIn, Indonesia AI Meetup, PyCon
+                    Indonesia.</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase6-certification"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase6-certification"
+                    >Sertifikasi: Google ML Engineer, AWS ML, IoT Foundation
+                    (Dicoding).</label
+                  >
+                </li>
+                <li class="flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    id="phase6-jobs"
+                    class="custom-checkbox checklist mr-3"
+                  />
+                  <label for="phase6-jobs"
+                    >Lamaran: Lamar di JobStreet, Glints, LinkedIn.</label
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Alat</h3>
+              <ul class="list-disc pl-6">
+                <li>Streamlit: Demo aplikasi AI.</li>
+                <li>LinkedIn: Jaringan dan kerja.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Milestone</h3>
+              <p>Magang atau pekerjaan entry-level sebagai AI/IoT Engineer.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white py-6">
+      <div class="container mx-auto px-4 text-center">
+        <p>© 2025 Roadmap AI & IoT Engineer.| Rausyanul fikri</p>
+      </div>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
